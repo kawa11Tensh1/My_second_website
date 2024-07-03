@@ -1,0 +1,106 @@
+body {
+    background-color: #ffdef4;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+.my_photo {
+    background: url(../image/My_photo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 200px;
+    height: 300px;
+}
+
+.nav_logo {
+    background: url(../image/logo.png) no-repeat center center;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_photo {
+    text-align: center;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #008000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top:  20px;
+    width: 25%;
+}
+
+.btn_red {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #c83581;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.row.form__reg input.form {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.btn_red.btn__reg {
+    margin-top: 10px;
+}
+
+.col-12 form input,
+.col-12 form textarea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.col-12 form button {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #c83581;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cast_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
